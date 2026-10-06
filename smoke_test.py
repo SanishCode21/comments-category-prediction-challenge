@@ -1,20 +1,36 @@
-from inference import predict_comment
+import numpy as np
+from inference import (
+    competition_model,
+    text_model,
+    predict_competition,
+    predict_text_only,
+)
+
+print("Competition classes:", competition_model.classes_)
+print("Text-only classes:", text_model.classes_)
+print()
 
 tests = [
-    {
-        "comment": "This is an example comment for testing.",
-        "upvote": 10,
-        "downvote": 2,
-        "emoticon_1": 1,
-    },
-    {"comment": "hello"},
-    {"comment": "I completely disagree with this!"},
-    {"comment": "This is a much longer comment explaining my opinion..."},
-    {"comment": "😂😂😂"},
+    "hello",
+    "I completely disagree with this!",
+    "This is a much longer comment explaining my opinion...",
+    "😂😂😂",
 ]
 
-for test in tests:
-    result = predict_comment(**test)
-    print(test["comment"])
-    print(result)
+print("=== TEXT-ONLY MODEL ===")
+for text in tests:
+    print(text)
+    print(predict_text_only(text))
     print("-" * 60)
+
+print("\n=== COMPETITION MODEL ===")
+for text in tests:
+    print(text)
+    print(predict_competition(text))
+    print("-" * 60)
+
+assert np.array_equal(competition_model.classes_, np.array([0, 1, 2, 3]))
+assert np.array_equal(text_model.classes_, np.array([0, 1, 2, 3]))
+
+print("\nSmoke test completed successfully.")
+

@@ -1,3 +1,8 @@
+# Comment Category Prediction
+
+A public ML demo built from a multiclass Kaggle-style comment classification project.
+
+
 ---
 title: Comment Category Prediction
 emoji: 💬
@@ -7,10 +12,6 @@ sdk: gradio
 app_file: app.py
 pinned: false
 ---
-
-# Comment Category Prediction
-
-A public ML demo built from a multiclass Kaggle-style comment classification project.
 
 ## Model
 
