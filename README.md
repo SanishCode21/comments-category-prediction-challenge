@@ -24,11 +24,11 @@ This two-model setup came from an important deployment lesson: the competition m
 
 ## Live Project
 
-- **Live App:** `https://sanishkumarsingh-comment-category-prediction-challenge.hf.space/`
-- **GitHub Repository:** `https://github.com/SanishCode21/comments-category-prediction-challenge.git`
-- **Kaggle Competition:** `https://www.kaggle.com/competitions/comment-category-prediction-challenge/overview`
-- **Notebook:** `https://colab.research.google.com/drive/1rnMK-AG9wUr937dHUoPtxNxZOYb4ygif?usp=sharing`
-- **LinkedIn:** `https://www.linkedin.com/in/sanish-kumar-singh-163679289`
+- **Live App:** https://sanishkumarsingh-comment-category-prediction-challenge.hf.space/
+- **GitHub Repository:** https://github.com/SanishCode21/comments-category-prediction-challenge.git
+- **Kaggle Competition:** https://www.kaggle.com/competitions/comment-category-prediction-challenge/overview
+- **Notebook:** https://colab.research.google.com/drive/1rnMK-AG9wUr937dHUoPtxNxZOYb4ygif?usp=sharing
+- **LinkedIn:** https://www.linkedin.com/in/sanish-kumar-singh-163679289
 
 
 ---
@@ -103,14 +103,12 @@ Some of the main observations were:
 
 Add your existing figures from the `assets/` folder here:
 
-```md
+
 ![Class Distribution](assets/eda1.png)
 ![Comment Length Analysis](assets/eda2.png)
 ![Correlation Heatmap](assets/heatmap.png)
 ![EDA Overview](assets/eda3.png)
-```
 
-Use the exact filenames from your repository.
 
 ---
 
@@ -395,12 +393,12 @@ The app also includes real validation examples so visitors can test comments tha
 
 Add screenshots from your `assets/` folder:
 
-```md
+
 ![Live App UI](assets/ui4.png)
 ![Competition Model UI](assets/ui3.png)
 ![Model Insights](assets/ui2.png)
 ![Developer](assets/ui1.png)
-```
+
 
 Use the real filenames from your repo.
 
@@ -581,11 +579,11 @@ I intentionally stopped short of adding unnecessary complexity to the deployed v
 
 I am building my career toward AI/ML engineering and using projects like this to strengthen my understanding of practical machine learning systems beyond coursework.
 
-- **Live App:** `https://sanishkumarsingh-comment-category-prediction-challenge.hf.space/`
-- **GitHub Repository:** `https://github.com/SanishCode21/comments-category-prediction-challenge.git`
-- **Kaggle Competition:** `https://www.kaggle.com/competitions/comment-category-prediction-challenge/overview`
-- **Notebook:** `https://colab.research.google.com/drive/1rnMK-AG9wUr937dHUoPtxNxZOYb4ygif?usp=sharing`
-- **LinkedIn:** `https://www.linkedin.com/in/sanish-kumar-singh-163679289`
+- **Live App:** https://sanishkumarsingh-comment-category-prediction-challenge.hf.space/
+- **GitHub Repository:** https://github.com/SanishCode21/comments-category-prediction-challenge.git
+- **Kaggle Competition:** https://www.kaggle.com/competitions/comment-category-prediction-challenge/overview
+- **Notebook:** https://colab.research.google.com/drive/1rnMK-AG9wUr937dHUoPtxNxZOYb4ygif?usp=sharing
+- **LinkedIn:** https://www.linkedin.com/in/sanish-kumar-singh-163679289
 
 ---
 
